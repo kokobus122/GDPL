@@ -44,7 +44,7 @@ const NavBar = () => {
                     <Link href="/guidelines">Guidelines</Link>
                   </li>
                   <li>
-                    <Link href="/submit">Submit Level</Link>
+                    <Link href="/">Submit Level</Link>
                   </li>
                 </ul>
               </li>
@@ -70,7 +70,7 @@ const NavBar = () => {
                     <Link href="/guidelines">Guidelines</Link>
                   </li>
                   <li>
-                    <Link href="/submit">Submit Level</Link>
+                    <Link href="/">Submit Level</Link>
                   </li>
                 </ul>
               </details>
