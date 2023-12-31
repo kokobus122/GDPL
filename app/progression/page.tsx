@@ -15,8 +15,7 @@ const Progression = () => {
       <div className="max-w-[1300px] px-3 mx-auto pt-2 min-h-screen">
         <h1 className="font-bold text-2xl text-center text-primary">Progression List</h1>
         <h2 className="text-md text-center pb-10">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor,
-          pariatur.
+          Track your platformer demon progress here. This is still a work in progress and will be released at a later date.
         </h2>
 
         {/* All Lists */}
