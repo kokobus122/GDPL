@@ -1,9 +1,9 @@
 "use client";
+import { usePathname } from "next/navigation";
 import React from "react";
 import levelsData from "../LevelsData";
-import { usePathname } from "next/navigation";
 
-const Page = ({ params }: { params: { levelId: string } }) => {
+const Path = ({ params }: { params: { levelId: string } }) => {
   const currentLink = usePathname();
   const levelId = Number(currentLink.substring(1)) - 1;
   const levelData = levelsData[levelId];
@@ -16,6 +16,12 @@ const Page = ({ params }: { params: { levelId: string } }) => {
           {levelData.label}
         </h1>
         <p className="text-lg text-base-content">By {levelData.creator}</p>
+        {/* <Image
+            src={levelData.thumbnail}
+            width={400}
+            height={400}
+            alt="test"
+          ></Image> */}
         <div className="w-[80%]">
           <iframe
             className="w-full h-[270px] md:h-[450px] lg:h-[600px]"
@@ -48,4 +54,4 @@ const Page = ({ params }: { params: { levelId: string } }) => {
   );
 };
 
-export default Page;
+export default Path;
