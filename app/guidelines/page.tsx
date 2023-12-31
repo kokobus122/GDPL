@@ -1,75 +1,103 @@
+import Link from "next/link";
 import React from "react";
 
 const Guidelines = () => {
   return (
     <>
       <div className="container mx-auto px-3">
-        <h1 className="text-content text-2xl my-3 font-bold text-center">
+        <h1 className="text-content text-3xl my-3 font-bold text-center">
           Guidelines
         </h1>
-        <h2 className="text-primary text-lg font-bold text-center">
+        <h2 className="text-primary text-xl font-bold text-center">
           GDPL Rules
         </h2>
         <div className="flex flex-col gap-4 mx-auto my-3 w-full md:w-1/2">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            deleniti distinctio tenetur ipsum, placeat quod eum numquam unde
-            laboriosam doloribus voluptates expedita quae laudantium quidem quam
-            velit aspernatur pariatur fuga. Pariatur accusantium consectetur
-            ipsa molestiae ipsum sequi a quo explicabo corrupti minus molestias
-            vero, quam hic quae, magnam fugit ad laborum debitis in est eum odio
-            at. Consequatur, ratione iusto provident beatae quia atque sunt
-            nobis esse nostrum ipsa. Laborum, dolore. Necessitatibus nihil quos,
-            dolorum asperiores unde eius impedit suscipit dicta adipisci quas
-            sed cupiditate voluptatem.
+            Users of Mega Hack V8 are expected to follow the list of allowed
+            hacks by{" "}
+            <Link
+              className="font-bold text-primary"
+              href="https://docs.google.com/spreadsheets/d/1evE4nXATxRAQWu2Ajs54E6cVUqHBoSid8I7JauJnOzg/edit"
+            >
+              Demonlist
+            </Link>
+            .
           </p>
+          <ul className="list-disc">
+            Disallowed hacks include:
+            <li>Noclip</li>
+            <li>Startpos Switcher</li>
+            <li>Physics Bypass</li>
+            <li>
+              Any disallowed hacks mentioned in{" "}
+              <Link
+                className="font-bold text-primary"
+                href="https://docs.google.com/spreadsheets/d/1evE4nXATxRAQWu2Ajs54E6cVUqHBoSid8I7JauJnOzg/edit"
+              >
+                Demonlist
+              </Link>
+              .
+            </li>
+          </ul>
           <p>
-            Unde explicabo, eius quis voluptatum temporibus numquam mollitia
-            provident, nulla adipisci laudantium repudiandae ea veritatis odit
-            corrupti obcaecati non ex laborum. Consequuntur velit eaque magni
-            repellat voluptatem voluptatibus, alias ut harum rem unde nisi
-            itaque, dolor sint incidunt nemo maiores quidem impedit provident,
-            facilis necessitatibus perferendis nulla odio autem. Sequi, et ipsam
-            veniam sunt, natus est nobis tenetur facilis neque pariatur omnis
-            quaerat dolorem reprehenderit accusantium vitae repellat nam error
-            quam dolor culpa aliquid! Cumque a ducimus provident eos eligendi
-            asperiores? Repudiandae non dolores eaque quam dolor officia commodi
-            error, ea laborum enim maiores voluptatum iusto quasi amet. Ex
-            architecto soluta, cum possimus cupiditate laboriosam veritatis quis
-            neque illum, facere reprehenderit exercitationem similique iure.
+            The GDPL team is subject to deny any submissions that include the
+            usage of disallowed hacks. <br />
+            If an illegitimate completion has been accepted, the submission
+            should be reported through our Discord server.
           </p>
         </div>
-        <h2 className="text-primary text-lg font-bold text-center">
+        <h2 className="text-primary text-xl font-bold text-center">
           Submissions
         </h2>
         <div className="flex flex-col gap-4 mx-auto my-3 w-full md:w-1/2">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore
-            deleniti distinctio tenetur ipsum, placeat quod eum numquam unde
-            laboriosam doloribus voluptates expedita quae laudantium quidem quam
-            velit aspernatur pariatur fuga. Pariatur accusantium consectetur
-            ipsa molestiae ipsum sequi a quo explicabo corrupti minus molestias
-            vero, quam hic quae, magnam fugit ad laborum debitis in est eum odio
-            at. Consequatur, ratione iusto provident beatae quia atque sunt
-            nobis esse nostrum ipsa. Laborum, dolore. Necessitatibus nihil quos,
-            dolorum asperiores unde eius impedit suscipit dicta adipisci quas
-            sed cupiditate voluptatem.
+            Submissions of user-made levels may be submitted through the{" "}
+            <Link
+              className="text-primary font-bold hover:underline"
+              href="https://discord.gg/Y3u7VHTQ3R"
+            >
+              GDPL Discord
+            </Link>
+            .
           </p>
           <p>
-            Unde explicabo, eius quis voluptatum temporibus numquam mollitia
-            provident, nulla adipisci laudantium repudiandae ea veritatis odit
-            corrupti obcaecati non ex laborum. Consequuntur velit eaque magni
-            repellat voluptatem voluptatibus, alias ut harum rem unde nisi
-            itaque, dolor sint incidunt nemo maiores quidem impedit provident,
-            facilis necessitatibus perferendis nulla odio autem. Sequi, et ipsam
-            veniam sunt, natus est nobis tenetur facilis neque pariatur omnis
-            quaerat dolorem reprehenderit accusantium vitae repellat nam error
-            quam dolor culpa aliquid! Cumque a ducimus provident eos eligendi
-            asperiores? Repudiandae non dolores eaque quam dolor officia commodi
-            error, ea laborum enim maiores voluptatum iusto quasi amet. Ex
-            architecto soluta, cum possimus cupiditate laboriosam veritatis quis
-            neque illum, facere reprehenderit exercitationem similique iure.
+            As of now, the only way to submit levels is through our official{" "}
+            <Link
+              className="text-primary font-bold hover:underline"
+              href="https://discord.gg/Y3u7VHTQ3R"
+            >
+              Discord
+            </Link>{" "}
+            server. <br />
+            Submitted levels have to be sent in by the original creator. <br />
+            Review times may vary depending on staff available. <br />
+            Duplicate submissions will be ignored and result in a temporary ban
+            from submitting any future levels.
           </p>
+        </div>
+        <h2 className="text-primary text-xl font-bold text-center">
+          Changelog
+        </h2>
+        <div className="flex flex-col gap-4 mx-auto my-3 w-full md:w-1/2">
+          <p>
+            The changelog is used to document rule and guideline changes
+            implemented by the GDPL team. Recent changes can be viewed through
+            the home page. However, important changes may not always be
+            documented on our website and it is therefore advised to join our{" "}
+            <Link
+              className="text-primary font-bold hover:underline"
+              href="https://discord.gg/Y3u7VHTQ3R"
+            >
+              Discord
+            </Link>{" "}
+            server to not miss out on necessary updates.{" "}
+          </p>
+          <h2 className="text-lg italic">Update v1.0 [2023-12-30]</h2>
+          <ul className="list-disc">
+            <li>GDPL Released</li>
+            <li>Platformer List</li>
+            <li>Progression List (W.I.P)</li>
+          </ul>
         </div>
       </div>
     </>
