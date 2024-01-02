@@ -41,10 +41,10 @@ const NavBar = () => {
                 <a>GDPL</a>
                 <ul className="p-2">
                   <li>
-                    <Link href="/guidelines">Guidelines</Link>
+                    <Link href="/community">Community Levels</Link>
                   </li>
                   <li>
-                    <Link href="/">Submit Level</Link>
+                    <Link href="/guidelines">Guidelines</Link>
                   </li>
                 </ul>
               </li>
@@ -67,15 +67,14 @@ const NavBar = () => {
                 <summary>GDPL</summary>
                 <ul className="p-2">
                   <li>
-                    <Link href="/guidelines">Guidelines</Link>
+                    <Link href="/community">Community Levels</Link>
                   </li>
                   <li>
-                    <Link href="/">Submit Level</Link>
+                    <Link href="/guidelines">Guidelines</Link>
                   </li>
                 </ul>
               </details>
             </li>
-            
           </ul>
         </div>
         <div className="navbar-end">

@@ -10,12 +10,43 @@ const Progression = () => {
   const noviceLevels = levelsData.slice(9, 13);
   const noviceLabels = noviceLevels.map((item) => item.label);
 
+  // create state variable to store checkbox states
+  const [checkboxStates, setCheckboxStates] = useState<{
+    [key: string]: boolean;
+  }>({});
+
+  // load checkbox states from localStorage on component mount
+  useEffect(() => {
+    const savedCheckboxStates = localStorage.getItem(
+      "noviceListCheckboxStates"
+    );
+    if (savedCheckboxStates) {
+      setCheckboxStates(JSON.parse(savedCheckboxStates));
+    }
+  }, []);
+
+  // update checkbox states and save to localStorage
+  const handleCheckboxChange = (label: string) => {
+    setCheckboxStates((prevState) => {
+      const updatedStates = { ...prevState, [label]: !prevState[label] };
+      localStorage.setItem(
+        "noviceListCheckboxStates",
+        JSON.stringify(updatedStates)
+      );
+      return updatedStates;
+    });
+  };
+
   return (
     <>
       <div className="max-w-[1300px] px-3 mx-auto pt-2 min-h-screen">
-        <h1 className="font-bold text-2xl text-center text-primary">Progression List</h1>
+        <h1 className="font-bold text-2xl text-center text-primary">
+          Progression List
+        </h1>
         <h2 className="text-md text-center pb-10">
-          Track your platformer demon progress here. This is still a work in progress and will be released at a later date.
+          Upon completion of corresponding list a role reward is given in
+          Discord when applied for.
+          <p className="italic text-sm">Lists update whenever a new demon is added to the list.</p>
         </h2>
 
         {/* All Lists */}
@@ -29,39 +60,25 @@ const Progression = () => {
               <h2 className="card-title text-primary">Novice List</h2>
 
               <div className="form-control">
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[10].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[11].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[12].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[13].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
+                {levelsData.slice(10, 15).map((levelData, index) => (
+                  <label
+                    key={index}
+                    className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap"
+                  >
+                    <span className="label-text">{levelData.label}</span>
+                    <input
+                      type="checkbox"
+                      className="checkbox checkbox-primary"
+                      checked={checkboxStates[levelData.label] || false}
+                      onChange={() => handleCheckboxChange(levelData.label)}
+                    />
+                  </label>
+                ))}
               </div>
 
-              <div className="card-actions">
+              {/* <div className="card-actions">
                 <button className="btn btn-primary">More...</button>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -74,38 +91,20 @@ const Progression = () => {
               <h2 className="card-title text-primary">Intermediate List</h2>
 
               <div className="form-control">
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[4].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[5].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[12].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[6].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
-              </div>
-
-              <div className="card-actions">
-                <button className="btn btn-primary">More...</button>
+                {levelsData.slice(4, 9).map((levelData, index) => (
+                  <label
+                    key={index}
+                    className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap"
+                  >
+                    <span className="label-text">{levelData.label}</span>
+                    <input
+                      type="checkbox"
+                      className="checkbox checkbox-primary"
+                      checked={checkboxStates[levelData.label] || false}
+                      onChange={() => handleCheckboxChange(levelData.label)}
+                    />
+                  </label>
+                ))}
               </div>
             </div>
           </div>
@@ -119,39 +118,22 @@ const Progression = () => {
               <h2 className="card-title text-primary">Expert List</h2>
 
               <div className="form-control">
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[0].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[1].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[2].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
-                <label className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap">
-                  <span className="label-text">{levelsData[3].label}</span>
-                  <input
-                    type="checkbox"
-                    className="checkbox checkbox-primary"
-                  />
-                </label>
+                {levelsData.slice(0, 5).map((levelData, index) => (
+                  <label
+                    key={index}
+                    className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap"
+                  >
+                    <span className="label-text">{levelData.label}</span>
+                    <input
+                      type="checkbox"
+                      className="checkbox checkbox-primary"
+                      checked={checkboxStates[levelData.label] || false}
+                      onChange={() => handleCheckboxChange(levelData.label)}
+                    />
+                  </label>
+                ))}
               </div>
 
-              <div className="card-actions">
-                <button className="btn btn-primary">More...</button>
-              </div>
             </div>
           </div>
         </div>

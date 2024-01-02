@@ -18,6 +18,8 @@ const Guidelines = () => {
             <Link
               className="font-bold text-primary"
               href="https://docs.google.com/spreadsheets/d/1evE4nXATxRAQWu2Ajs54E6cVUqHBoSid8I7JauJnOzg/edit"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Demonlist
             </Link>
@@ -33,6 +35,8 @@ const Guidelines = () => {
               <Link
                 className="font-bold text-primary"
                 href="https://docs.google.com/spreadsheets/d/1evE4nXATxRAQWu2Ajs54E6cVUqHBoSid8I7JauJnOzg/edit"
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 Demonlist
               </Link>
@@ -55,6 +59,8 @@ const Guidelines = () => {
             <Link
               className="text-primary font-bold hover:underline"
               href="https://discord.gg/Y3u7VHTQ3R"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               GDPL Discord
             </Link>
@@ -65,6 +71,8 @@ const Guidelines = () => {
             <Link
               className="text-primary font-bold hover:underline"
               href="https://discord.gg/Y3u7VHTQ3R"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Discord
             </Link>{" "}
@@ -87,17 +95,30 @@ const Guidelines = () => {
             <Link
               className="text-primary font-bold hover:underline"
               href="https://discord.gg/Y3u7VHTQ3R"
+              rel="noopener noreferrer"
+              target="_blank"
             >
               Discord
             </Link>{" "}
             server to not miss out on necessary updates.{" "}
           </p>
-          <h2 className="text-lg italic">Update v1.0 [2023-12-30]</h2>
-          <ul className="list-disc">
-            <li>GDPL Released</li>
-            <li>Platformer List</li>
-            <li>Progression List (W.I.P)</li>
-          </ul>
+          <div>
+            <h2 className="text-lg italic">Update v1.1 [2024-01-02]</h2>
+            <ul className="list-disc">
+              <li>Progression Tracker</li>
+              <li>Records</li>
+              <li>Community List</li>
+              <li>Mobile Optimization</li>
+            </ul>
+          </div>
+          <div>
+            <h2 className="text-lg italic">Update v1.0 [2023-12-30]</h2>
+            <ul className="list-disc">
+              <li>GDPL Released</li>
+              <li>Platformer List</li>
+              <li>Progression List (W.I.P)</li>
+            </ul>
+          </div>
         </div>
       </div>
     </>

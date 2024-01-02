@@ -35,12 +35,42 @@ const Page = ({ params }: { params: { levelId: string } }) => {
           </p>
           <div className="flex flex-col items-center py-4">
             <h1 className="font-bold text-2xl text-primary">Records</h1>
-            <ul>
-              <li>Player 1: 00:00:00s</li>
-              <li>Player 2: 00:00:00s</li>
-              <li>Player 3: 00:00:00s</li>
-              <li>Player 4: 00:00:00s</li>
-            </ul>
+            <div className="overflow-x-auto">
+              <table className="table">
+                {/* head */}
+                <thead>
+                  <tr>
+                    <th></th>
+                    <th>Record Holder</th>
+                    <th>Time</th>
+                    <th>Link</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {/* row 1 */}
+                  <tr>
+                    <th>1</th>
+                    <td>{levelData.bestScores?.[0]?.playerName}</td>
+                    <td>{levelData.bestScores?.[0]?.playerTime}</td>
+                    <td>{levelData.bestScores?.[0]?.playerLink}</td>
+                  </tr>
+                  {/* row 2 */}
+                  <tr>
+                    <th>2</th>
+                    <td>{levelData.bestScores?.[1]?.playerName}</td>
+                    <td>{levelData.bestScores?.[1]?.playerTime}</td>
+                    <td>{levelData.bestScores?.[1]?.playerLink}</td>
+                  </tr>
+                  {/* row 3 */}
+                  <tr>
+                    <th>3</th>
+                    <td>{levelData.bestScores?.[2]?.playerName}</td>
+                    <td>{levelData.bestScores?.[2]?.playerTime}</td>
+                    <td>{levelData.bestScores?.[2]?.playerLink}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
           </div>
         </div>
       </div>

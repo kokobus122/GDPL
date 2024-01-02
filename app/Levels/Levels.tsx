@@ -41,7 +41,7 @@ const Levels = () => {
           <div className="flex flex-col justify-center col-span-8">
             <Link
               href={`/${index + 1}`}
-              className="text-primary text-2xl font-bold hover:underline"
+              className="text-primary text-xl font-bold hover:underline md:text-2xl"
             >
               #{index + 1} - {level.label}
             </Link>
