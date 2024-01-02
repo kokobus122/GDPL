@@ -9,8 +9,7 @@ const Sidebar = () => {
           <h1 className="text-xl font-bold">Editors</h1>
           <p className="text-content">
             Developer - kokobus <br />
-            Designer - omitiny <br />
-            Moral Support - elz0s <br />
+            Design - omitiny <br />
           </p>
         </div>
         <div className="flex flex-col w-full space-y-2 border-[1px] border-neutral rounded-lg p-2 bg-base-200">

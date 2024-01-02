@@ -26,12 +26,7 @@ const Page = ({ params }: { params: { levelId: string } }) => {
         </div>
         <div className="container">
           <p className="text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, tenetur
-            tempora laborum omnis nesciunt voluptate accusamus ut repellat nam
-            eius quia quos illo maiores obcaecati aliquid officiis pariatur
-            ducimus recusandae consectetur vero! Velit eius, voluptatum rerum
-            neque reprehenderit natus debitis! Nostrum, placeat magnam enim sint
-            unde distinctio tempora mollitia dolor.
+            
           </p>
           <div className="flex flex-col items-center py-4">
             <h1 className="font-bold text-2xl text-primary">Records</h1>
