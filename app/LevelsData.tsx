@@ -278,9 +278,9 @@ const levelsData = [
     label: "Flipswap Factory",
     creator: "Zejoant",
     thumbnail:
-      "https://i.ytimg.com/vi/fjZhcm_vaV4/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhlIEcoXTAP&rs=AOn4CLANIs0ubAanoX7Z8cD6K8zywQvaEw",
-    link: "https://www.youtube.com/watch?v=fjZhcm_vaV4&ab_channel=Thyst",
-    embed: "https://www.youtube.com/embed/fjZhcm_vaV4?si=KL1_xeUEn2poquBy",
+      "https://i.ytimg.com/vi/Ak0uet9Q52k/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8uZhoWGDk3zk1tjyZIQtvlxNfpA",
+    link: "https://www.youtube.com/watch?v=Ak0uet9Q52k",
+    embed: "https://www.youtube.com/embed/Ak0uet9Q52k?si=Sd6wSs7TEHr0jvP6",
     bestScores: [
       {
         playerName: "Player 1",
