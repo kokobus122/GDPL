@@ -26,7 +26,7 @@ const levelsData = [
   },
   {
     label: "I wanna be the guy",
-    creator: "Orelu",
+    creator: "Aless50",
     thumbnail:
       "https://i.ytimg.com/vi/P3b69nt2JtY/hq720.jpg?sqp=-oaymwE2COgCEMoBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhVIGUoDzAP&rs=AOn4CLCPIMfBDkp2d69OK0PETNPmqgCwew",
     link: "https://www.youtube.com/watch?v=P3b69nt2JtY&ab_channel=Aless",
@@ -106,6 +106,31 @@ const levelsData = [
       "https://i.ytimg.com/vi/Hm45YvY3vbg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCXAd6KHOVC4M-3x1aAglPTjTFCRA",
     link: "https://www.youtube.com/watch?v=Hm45YvY3vbg&ab_channel=fnm04",
     embed: "https://www.youtube.com/embed/Hm45YvY3vbg?si=2qEAZ_mSCG8XFp5w",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
+    label: "GD Tower Tiny Square",
+    creator: "Liamiamiam",
+    thumbnail:
+      "https://i.ytimg.com/vi/5kzGphyeirA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAAyX2ifFXvpK6iQPWoHY0k_vn5dw",
+    link: "https://www.youtube.com/watch?v=5kzGphyeirA&ab_channel=MrNexis",
+    embed: "https://www.youtube.com/embed/5kzGphyeirA?si=ZQ73yb1WA2GpgBEp",
     bestScores: [
       {
         playerName: "Player 1",
@@ -250,12 +275,12 @@ const levelsData = [
     ],
   },
   {
-    label: "old site gdsite",
+    label: "old site gdside",
     creator: "dboy394",
     thumbnail:
-      "https://i.ytimg.com/vi/4WJaBzm0cS8/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARheIEEocjAP&rs=AOn4CLAm1HF-Llfgq1Bb-7WheqKPDcActQ",
-    link: "https://www.youtube.com/watch?v=4WJaBzm0cS8&ab_channel=Doggy",
-    embed: "https://www.youtube.com/embed/4WJaBzm0cS8?si=7iIZLDpp4jKO-DOy",
+      "https://i.ytimg.com/vi/0hRt6vQBMns/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBR2FdIsBhd4wPSXHjMVgBaGcaE9A",
+    link: "https://www.youtube.com/watch?v=0hRt6vQBMns&ab_channel=TMQuan",
+    embed: "https://www.youtube.com/embed/0hRt6vQBMns?si=_kzsvpoddO1ADsOl",
     bestScores: [
       {
         playerName: "Player 1",
