@@ -60,7 +60,7 @@ const Progression = () => {
               <h2 className="card-title text-primary">Novice List</h2>
 
               <div className="form-control">
-                {levelsData.slice(10, 15).map((levelData, index) => (
+                {levelsData.slice(13, 18).map((levelData, index) => (
                   <label
                     key={index}
                     className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap"
@@ -91,7 +91,7 @@ const Progression = () => {
               <h2 className="card-title text-primary">Intermediate List</h2>
 
               <div className="form-control">
-                {levelsData.slice(5, 10).map((levelData, index) => (
+                {levelsData.slice(7, 12).map((levelData, index) => (
                   <label
                     key={index}
                     className="label cursor-pointer gap-40 border-b-[1px] border-b-gray-300 whitespace-nowrap"

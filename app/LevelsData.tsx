@@ -424,6 +424,31 @@ const levelsData = [
       },
     ],
   },
+  {
+    label: "Maethrillian",
+    creator: "Destriv",
+    thumbnail:
+      "https://i.ytimg.com/vi/j3cHV5mxV0k/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBzAb5F7sT6Z8x5htYcWcXrYLdZow",
+    link: "https://www.youtube.com/watch?v=j3cHV5mxV0k&ab_channel=Destriv",
+    embed: "https://www.youtube.com/embed/j3cHV5mxV0k?si=RHwtOgi39BLL2Xty",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
 ];
 
 export default levelsData;
