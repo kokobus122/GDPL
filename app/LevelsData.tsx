@@ -325,6 +325,31 @@ const levelsData = [
     ],
   },
   {
+    label: "Dashing Over It",
+    creator: "Halapeenyo",
+    thumbnail:
+      "https://i.ytimg.com/vi/J8InMesLTMc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIFoZMnFM9B8HFFpHULqj2ENTsTw",
+    link: "https://www.youtube.com/watch?v=J8InMesLTMc&ab_channel=HaxQL",
+    embed: "https://www.youtube.com/embed/J8InMesLTMc?si=u4IhxRZxIbWAnBKH",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
     label: "Hole in the Wall",
     creator: "shaurya",
     thumbnail:
