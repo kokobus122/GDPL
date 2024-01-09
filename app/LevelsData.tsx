@@ -100,6 +100,31 @@ const levelsData = [
     ],
   },
   {
+    label: "DuAlist",
+    creator: "KingEggplant987",
+    thumbnail:
+      "https://i.ytimg.com/vi/fOsnmBz45ZA/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLABSFZUVxkZhd370CSz8tBzTlkTlg",
+    link: "https://www.youtube.com/watch?v=fOsnmBz45ZA&ab_channel=MaxiS9",
+    embed: "https://www.youtube.com/embed/fOsnmBz45ZA?si=BwMqV02qBcEWyKsr",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
     label: "Chromaside",
     creator: "qalli",
     thumbnail:
