@@ -1,5 +1,30 @@
 const levelsData = [
   {
+    label: "The Abyss",
+    creator: "zYuko",
+    thumbnail:
+      "https://i.ytimg.com/vi/2hIhD4q8rGo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAYgr0DwkJ4O28_cRxEPAODTmJJ1Q",
+    link: "https://www.youtube.com/watch?v=2hIhD4q8rGo&ab_channel=mikoshii",
+    embed: "https://www.youtube.com/embed/2hIhD4q8rGo?si=RJk3u1WLTqFrwXL6",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
     label: "The Tower XXII",
     creator: "o1iv3",
     thumbnail:
@@ -50,16 +75,16 @@ const levelsData = [
     ],
   },
   {
-    label: "Dark Passage",
-    creator: "Influks",
+    label: "Worlds Hardest Game",
+    creator: "Infernal331",
     thumbnail:
-      "https://i.ytimg.com/vi/qROMgEVufNk/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARguIBMofzAP&rs=AOn4CLCyJo-IOtUB9wtVRv5tmxo-4mOhFw",
-    link: "https://www.youtube.com/watch?v=qROMgEVufNk&ab_channel=Influks",
-    embed: "https://www.youtube.com/embed/qROMgEVufNk?si=gOtRghCGLhNAwNuP",
+      "https://i.ytimg.com/vi/Y6em3YWSh7E/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1KS3w0_SrkYFOyLPrt7fswutMPQ",
+    link: "https://www.youtube.com/watch?v=Y6em3YWSh7E&ab_channel=MrNexis",
+    embed: "https://www.youtube.com/embed/Y6em3YWSh7E?si=XGIaGLgTDxsl6qzS",
     bestScores: [
       {
-        playerName: "omitiny",
-        playerTime: "2:04:42.31s",
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
         playerLink: "N/A",
       },
       {
@@ -75,16 +100,16 @@ const levelsData = [
     ],
   },
   {
-    label: "Worlds Hardest Game",
-    creator: "Infernal331",
+    label: "Dark Passage",
+    creator: "Influks",
     thumbnail:
-      "https://i.ytimg.com/vi/Y6em3YWSh7E/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA1KS3w0_SrkYFOyLPrt7fswutMPQ",
-    link: "https://www.youtube.com/watch?v=Y6em3YWSh7E&ab_channel=MrNexis",
-    embed: "https://www.youtube.com/embed/Y6em3YWSh7E?si=XGIaGLgTDxsl6qzS",
+      "https://i.ytimg.com/vi/qROMgEVufNk/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARguIBMofzAP&rs=AOn4CLCyJo-IOtUB9wtVRv5tmxo-4mOhFw",
+    link: "https://www.youtube.com/watch?v=qROMgEVufNk&ab_channel=Influks",
+    embed: "https://www.youtube.com/embed/qROMgEVufNk?si=gOtRghCGLhNAwNuP",
     bestScores: [
       {
-        playerName: "Player 1",
-        playerTime: "00:00:00s",
+        playerName: "omitiny",
+        playerTime: "2:04:42.31s",
         playerLink: "N/A",
       },
       {
@@ -325,6 +350,31 @@ const levelsData = [
     ],
   },
   {
+    label: "Dashing Over It",
+    creator: "Halapeenyo",
+    thumbnail:
+      "https://i.ytimg.com/vi/J8InMesLTMc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIFoZMnFM9B8HFFpHULqj2ENTsTw",
+    link: "https://www.youtube.com/watch?v=J8InMesLTMc&ab_channel=HaxQL",
+    embed: "https://www.youtube.com/embed/J8InMesLTMc?si=u4IhxRZxIbWAnBKH",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
     label: "Flipswap Factory",
     creator: "Zejoant",
     thumbnail:
@@ -350,12 +400,37 @@ const levelsData = [
     ],
   },
   {
-    label: "Dashing Over It",
-    creator: "Halapeenyo",
+    label: "Jet Lag",
+    creator: "Disp",
     thumbnail:
-      "https://i.ytimg.com/vi/J8InMesLTMc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAIFoZMnFM9B8HFFpHULqj2ENTsTw",
-    link: "https://www.youtube.com/watch?v=J8InMesLTMc&ab_channel=HaxQL",
-    embed: "https://www.youtube.com/embed/J8InMesLTMc?si=u4IhxRZxIbWAnBKH",
+      "https://i.ytimg.com/vi/_F5hG-ojiaM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD77ms1iyGJJrVU6aw3toQohzq--A",
+    link: "https://www.youtube.com/watch?v=_F5hG-ojiaM&ab_channel=mbed",
+    embed: "https://www.youtube.com/embed/_F5hG-ojiaM?si=Yu5JCjBcsXaDwToZ",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
+    label: "Burnt Down",
+    creator: "hell",
+    thumbnail:
+      "https://i.ytimg.com/vi/ndC_wweyonk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDazgHmdlhNX0qQcuhz25p5VoNgFw",
+    link: "https://www.youtube.com/watch?v=ndC_wweyonk&ab_channel=MrNexis",
+    embed: "https://www.youtube.com/embed/ndC_wweyonk?si=0rA_RyzfI-w42PYc",
     bestScores: [
       {
         playerName: "Player 1",
@@ -400,12 +475,37 @@ const levelsData = [
     ],
   },
   {
-    label: "Jet Lag",
-    creator: "Disp",
+    label: "Twenty Trials",
+    creator: "morpe",
     thumbnail:
-      "https://i.ytimg.com/vi/_F5hG-ojiaM/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD77ms1iyGJJrVU6aw3toQohzq--A",
-    link: "https://www.youtube.com/watch?v=_F5hG-ojiaM&ab_channel=mbed",
-    embed: "https://www.youtube.com/embed/_F5hG-ojiaM?si=Yu5JCjBcsXaDwToZ",
+      "https://i.ytimg.com/vi/9nsO2BMJhfo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBT-AwGKFn4k_JxVa2fwxWlZJwqdA",
+    link: "https://www.youtube.com/watch?v=9nsO2BMJhfo&ab_channel=HaxQL",
+    embed: "https://www.youtube.com/embed/9nsO2BMJhfo?si=4hhWK3mcx8L-MYWg",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
+    label: "Gateway",
+    creator: "vyp",
+    thumbnail:
+      "https://i.ytimg.com/vi/W1w4c4pnfds/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDg-CSY-0f64YHs0zM6SSPKcWhviA",
+    link: "https://www.youtube.com/watch?v=W1w4c4pnfds&ab_channel=HaxQL",
+    embed: "https://www.youtube.com/embed/W1w4c4pnfds?si=fe3KGaUFqRnXSZI3",
     bestScores: [
       {
         playerName: "Player 1",
