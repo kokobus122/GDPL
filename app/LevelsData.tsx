@@ -225,6 +225,31 @@ const levelsData = [
     ],
   },
   {
+    label: "Tombstone Project",
+    creator: "BGames",
+    thumbnail:
+      "https://i.ytimg.com/vi/VoN0EuyaNWI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfGVDcnJ4eOSAyFXgPEwd8MX5Xrw",
+    link: "https://www.youtube.com/watch?v=VoN0EuyaNWI&ab_channel=BlasterGamesBG",
+    embed: "https://www.youtube.com/embed/VoN0EuyaNWI?si=g4psYI3nzQa9UF1r",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
     label: "Stella Infection",
     creator: "LopyLuna",
     thumbnail:
@@ -275,12 +300,87 @@ const levelsData = [
     ],
   },
   {
+    label: "Maximum Security",
+    creator: "Buziris",
+    thumbnail:
+      "https://i.ytimg.com/vi/fSNNSb20WTI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDu7F_zH0FK_R2vIjDtqBrNkXOcZA",
+    link: "https://www.youtube.com/watch?v=fSNNSb20WTI&ab_channel=MrNexis",
+    embed: "https://www.youtube.com/embed/fSNNSb20WTI?si=w0jPbspnO0id-C53",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
     label: "Speedtek",
     creator: "G4lvatron",
     thumbnail:
       "https://i.ytimg.com/vi/kJ1wVt8D-4o/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBKK-VIIdjTM21pNxvktNyDGhJ6Ew",
     link: "https://www.youtube.com/watch?v=kJ1wVt8D-4o&ab_channel=G4lvatron",
     embed: "https://www.youtube.com/embed/kJ1wVt8D-4o?si=MCud48EE4RPT8kIM",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
+    label: "BOXED",
+    creator: "NotAstrald",
+    thumbnail:
+      "https://i.ytimg.com/vi/HXnsB9NhI1U/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBW4WEQg_daBlC7YUhRWPi0txkz8w",
+    link: "https://www.youtube.com/watch?v=HXnsB9NhI1U&ab_channel=HaxQL",
+    embed: "https://www.youtube.com/embed/HXnsB9NhI1U?si=mL9MLZGkWSZfimqH",
+    bestScores: [
+      {
+        playerName: "Player 1",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 2",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+      {
+        playerName: "Player 3",
+        playerTime: "00:00:00s",
+        playerLink: "N/A",
+      },
+    ],
+  },
+  {
+    label: "Buddy Trials",
+    creator: "Wolvyy",
+    thumbnail:
+      "https://i.ytimg.com/vi/5D_W3RsiVX0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCfp1g_X95VZtnbQ_6TG08ZcGATnQ",
+    link: "https://www.youtube.com/watch?v=5D_W3RsiVX0&ab_channel=Wolvyy",
+    embed: "https://www.youtube.com/embed/5D_W3RsiVX0?si=nIMlXgQDBItgwrUR",
     bestScores: [
       {
         playerName: "Player 1",
